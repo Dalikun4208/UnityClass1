@@ -1,23 +1,23 @@
 Using pre-set license
-Built from '2022.3/release' branch; Version is '2022.3.20f1 (61c2feb0970d) revision 6406910'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Education' Language: 'ko' Physical Memory: 16297 MB
+Built from '2022.3/staging' branch; Version is '2022.3.41f1 (0f988161febf) revision 1022081'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'ko' Physical Memory: 15943 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2022.3.20f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2022.3.41f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Administrator/Desktop/UnityClass1/UnityClass1
+C:/Users/tphu7/OneDrive/ë¬¸ì„œ/GitHub/UnityClass1/UnityClass1
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50558
-Successfully changed project path to: C:/Users/Administrator/Desktop/UnityClass1/UnityClass1
-C:/Users/Administrator/Desktop/UnityClass1/UnityClass1
+53814
+Successfully changed project path to: C:/Users/tphu7/OneDrive/ë¬¸ì„œ/GitHub/UnityClass1/UnityClass1
+C:/Users/tphu7/OneDrive/ë¬¸ì„œ/GitHub/UnityClass1/UnityClass1
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,131 +49,133 @@ C:/Users/Administrator/Desktop/UnityClass1/UnityClass1
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [11420] Host "[IP] 192.168.0.44 [Port] 0 [Flags] 2 [Guid] 624150616 [EditorId] 624150616 [Version] 1048832 [Id] WindowsEditor(7,I-03) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [15340]  Target information:
 
-Player connection [11420] Host "[IP] 192.168.0.44 [Port] 0 [Flags] 2 [Guid] 624150616 [EditorId] 624150616 [Version] 1048832 [Id] WindowsEditor(7,I-03) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [15340]  * "[IP] 172.30.1.17 [Port] 0 [Flags] 2 [Guid] 2612958598 [EditorId] 2612958598 [Version] 1048832 [Id] WindowsEditor(7,BOOK-QHRAVBTU4T) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 5.01 ms, found 3 plugins.
+Player connection [15340] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [15340] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Refreshing native plugins compatible for Editor in 4713.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2022.3.20f1 (61c2feb0970d)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Administrator/Desktop/UnityClass1/UnityClass1/Assets
+Initialize engine version: 2022.3.41f1 (0f988161febf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/tphu7/OneDrive/ë¬¸ì„œ/GitHub/UnityClass1/UnityClass1/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1660 (ID=0x2184)
-    Vendor:   NVIDIA
-    VRAM:     5980 MB
-    Driver:   31.0.15.3623
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0xa7a0)
+    Vendor:   Intel
+    VRAM:     7971 MB
+    Driver:   31.0.101.4314
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56984
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56740
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005017 seconds.
-- Loaded All Assemblies, in  0.314 seconds
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.897525 seconds.
+- Loaded All Assemblies, in 19.900 seconds
 Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 164 ms
+Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.465 seconds
-Domain Reload Profiling: 779ms
-	BeginReloadAssembly (97ms)
+- Finished resetting the current domain, in  0.481 seconds
+Domain Reload Profiling: 20380ms
+	BeginReloadAssembly (14280ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (132ms)
-		LoadAssemblies (97ms)
+	RebuildCommonClasses (1428ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (973ms)
+	LoadAllAssembliesAndSetupDomain (3205ms)
+		LoadAssemblies (14276ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (130ms)
-			TypeCache.Refresh (129ms)
-				TypeCache.ScanAssembly (117ms)
+		AnalyzeDomain (3203ms)
+			TypeCache.Refresh (3201ms)
+				TypeCache.ScanAssembly (2456ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (465ms)
+	FinalizeReload (482ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (411ms)
+		SetupLoadedEditorAssemblies (407ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (254ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (107ms)
-			ProcessInitializeOnLoadMethodAttributes (43ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (285ms)
+			ProcessInitializeOnLoadMethodAttributes (92ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
 ========================================================================
 Worker process is ready to serve import requests
+Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.564 seconds
-Refreshing native plugins compatible for Editor in 1.94 ms, found 3 plugins.
+- Loaded All Assemblies, in 36.235 seconds
 Native extension for WindowsStandalone target not found
-Native extension for Android target not found
+Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.744 seconds
-Domain Reload Profiling: 1308ms
-	BeginReloadAssembly (133ms)
+- Finished resetting the current domain, in  1.056 seconds
+Domain Reload Profiling: 37289ms
+	BeginReloadAssembly (217ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (20ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (358ms)
-		LoadAssemblies (275ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (35878ms)
+		LoadAssemblies (32924ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (163ms)
-			TypeCache.Refresh (144ms)
-				TypeCache.ScanAssembly (128ms)
-			ScanForSourceGeneratedMonoScriptInfo (13ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (744ms)
+		AnalyzeDomain (3075ms)
+			TypeCache.Refresh (3036ms)
+				TypeCache.ScanAssembly (2853ms)
+			ScanForSourceGeneratedMonoScriptInfo (29ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1057ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (605ms)
+		SetupLoadedEditorAssemblies (833ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (21ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (76ms)
-			ProcessInitializeOnLoadAttributes (480ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (700ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.85 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 124.81 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3103 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 33 unused Assets / (57.5 KB). Loaded Objects now: 3570.
-Memory consumption went from 134.8 MB to 134.8 MB.
-Total: 3.526700 ms (FindLiveObjects: 0.361700 ms CreateObjectMapping: 0.272800 ms MarkObjects: 2.791500 ms  DeleteObjects: 0.099700 ms)
+Unloading 3098 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (54.9 KB). Loaded Objects now: 3568.
+Memory consumption went from 120.5 MB to 120.5 MB.
+Total: 5.223800 ms (FindLiveObjects: 0.306900 ms CreateObjectMapping: 0.142800 ms MarkObjects: 4.616500 ms  DeleteObjects: 0.154200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
@@ -184,438 +186,58 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 360.565797 seconds.
-  path: Assets/Class4th(Component)
-  artifactKey: Guid(7c34062516b800248b251fdbfc2b3973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class4th(Component) using Guid(7c34062516b800248b251fdbfc2b3973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2f10118d345cd92c8d2b636b66a3252') in 0.002498 seconds
+  Time since last request: 519029.026209 seconds.
+  path: Assets/Class7th(UI)/Images
+  artifactKey: Guid(56d788e9f62c0e140b39c1996329a81b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class7th(UI)/Images using Guid(56d788e9f62c0e140b39c1996329a81b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7dba302e42cb00ac5f9cbe9dbb278071') in 0.003740 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 4.344789 seconds.
-  path: Assets/Class4th(Component)/Class5th
-  artifactKey: Guid(84cdc8b2d2aa0464cace62063f99a2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class4th(Component)/Class5th using Guid(84cdc8b2d2aa0464cace62063f99a2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef9910db807172d3e82874a0d3e68762') in 0.000444 seconds
+  Time since last request: 224.154921 seconds.
+  path: Assets/Class7th(UI)/Images/city-8206042_1920.png
+  artifactKey: Guid(d045a682396f3c7428801c6ee8f6ea9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class7th(UI)/Images/city-8206042_1920.png using Guid(d045a682396f3c7428801c6ee8f6ea9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5f150057c337b0b8e4d9ff3841d35382') in 0.140258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 109.819705 seconds.
+  path: Assets/Class7th(UI)/Images/Scenery.png
+  artifactKey: Guid(d045a682396f3c7428801c6ee8f6ea9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class7th(UI)/Images/Scenery.png using Guid(d045a682396f3c7428801c6ee8f6ea9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '550ede9d5c05333da4444c34eb7917dd') in 0.019773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 513.395800 seconds.
+  path: Assets/Class7th(UI)/Images/Scenery.png
+  artifactKey: Guid(d045a682396f3c7428801c6ee8f6ea9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class7th(UI)/Images/Scenery.png using Guid(d045a682396f3c7428801c6ee8f6ea9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '43df5d5bf695e3e84e9bf54b390db5a6') in 0.118035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 384.321895 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A
+  artifactKey: Guid(fb0793ba43ead8c4a89d62e19ce3e04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A using Guid(fb0793ba43ead8c4a89d62e19ce3e04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ea42359573497f5620952bfaabd72151') in 0.001804 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 84.829095 seconds.
-  path: Assets/Understone/Free Aircraft Pack/Prefabs/aircraft-A-A.prefab
-  artifactKey: Guid(b328d903f3d6cab40bdffa8df664ec95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Free Aircraft Pack/Prefabs/aircraft-A-A.prefab using Guid(b328d903f3d6cab40bdffa8df664ec95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5690cf4fce5a80605435d807dcf1b75') in 0.097176 seconds
+  Time since last request: 2.730180 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/Scene
+  artifactKey: Guid(1d4ddc8cb3190b749bc2878cae95700e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/Scene using Guid(1d4ddc8cb3190b749bc2878cae95700e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b5e9f8dbda0d0e7eeb37a5aa6de431a5') in 0.000943 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 44
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Prefabs/Colobus.prefab
-  artifactKey: Guid(84b7c8441f160174fa5c6f94cf397f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Prefabs/Colobus.prefab using Guid(84b7c8441f160174fa5c6f94cf397f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b6abe9a2b70386f4de53b78550290e') in 0.087841 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 127
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Sparrow_LOD0.prefab
-  artifactKey: Guid(0c98f994f7df1f849858fd2d6de9b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Sparrow_LOD0.prefab using Guid(0c98f994f7df1f849858fd2d6de9b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903ad9ebb93fefa4ff00a113c607b355') in 0.054225 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 115
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Taipan_LOD2.prefab
-  artifactKey: Guid(cb62c170455017948ace0e5d58609ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Taipan_LOD2.prefab using Guid(cb62c170455017948ace0e5d58609ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4040d9520d530f6611ccce3eace7b3d5') in 0.064435 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 110
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Pudu_LOD3.prefab
-  artifactKey: Guid(d46987f5f4391a846a31d7f6f09edbb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Pudu_LOD3.prefab using Guid(d46987f5f4391a846a31d7f6f09edbb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03f5260b7502a77f5a6381ba55cb6d37') in 0.061618 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 112
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Taipan_LOD1.prefab
-  artifactKey: Guid(18edb9d6e2c9280408926d607183ef00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Taipan_LOD1.prefab using Guid(18edb9d6e2c9280408926d607183ef00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2478df98456e7a403680b0b99337bc4') in 0.059131 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 110
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Sparrow_LOD3.prefab
-  artifactKey: Guid(e23c85086d2af87419bdb97d397969f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Sparrow_LOD3.prefab using Guid(e23c85086d2af87419bdb97d397969f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '442f476dfbabb3599df67aa2f2c147d4') in 0.063055 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 115
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Colobus_LOD1.prefab
-  artifactKey: Guid(16312f7abca8d654d9cedbc1a27a4429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Colobus_LOD1.prefab using Guid(16312f7abca8d654d9cedbc1a27a4429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efce27f7297c02e823060fb24f95e7fc') in 0.063720 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 114
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Gecko_LOD3.prefab
-  artifactKey: Guid(ad4c3b6f9a1581941b5f82fb5d0589cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Gecko_LOD3.prefab using Guid(ad4c3b6f9a1581941b5f82fb5d0589cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a183258a6280a2ddab029937d25cec6') in 0.073096 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 110
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Prefabs/Muskrat.prefab
-  artifactKey: Guid(8cb75dc2fdd63734988b8358f1314d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Prefabs/Muskrat.prefab using Guid(8cb75dc2fdd63734988b8358f1314d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a2b66fc328a3cdd7abc2ab01564eab') in 0.079413 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 127
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Gecko_LOD2.prefab
-  artifactKey: Guid(b8b867b08f6d8294380ce8b7b001286f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Gecko_LOD2.prefab using Guid(b8b867b08f6d8294380ce8b7b001286f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f746135977e97d47f50e340bdb349c59') in 0.076477 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 110
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Muskrat_LOD3.prefab
-  artifactKey: Guid(cff0eb83beaafba4dbc640d8c032397c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Muskrat_LOD3.prefab using Guid(cff0eb83beaafba4dbc640d8c032397c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6b943cb817936ed0f6f83ef6011cd24') in 0.075191 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 114
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Taipan_LOD3.prefab
-  artifactKey: Guid(57c5278077cf45a4abc6db2f001804d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Taipan_LOD3.prefab using Guid(57c5278077cf45a4abc6db2f001804d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0acf0f1ec9d6ec2068aba7ec8329fb62') in 0.062977 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 110
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Muskrat_LOD0.prefab
-  artifactKey: Guid(6f7a2b840f3caca49af607313baee5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Muskrat_LOD0.prefab using Guid(6f7a2b840f3caca49af607313baee5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a566a235d502fc2699d8529bb9f78d') in 0.073983 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 114
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Herring_LOD3.prefab
-  artifactKey: Guid(7aac57ab7fdd5b84fa7ebe28e279fd3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Herring_LOD3.prefab using Guid(7aac57ab7fdd5b84fa7ebe28e279fd3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da8fdecf273401e84e35160859ecad1e') in 0.072455 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 110
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Herring_LOD0.prefab
-  artifactKey: Guid(774ad3c98396d0d4facf70f01089d641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Herring_LOD0.prefab using Guid(774ad3c98396d0d4facf70f01089d641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c063127e2e66c7947f82ad06beca9cbf') in 0.064924 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 110
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Gecko_LOD1.prefab
-  artifactKey: Guid(81df6cd7f4629fe46b2f941dd9992298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Gecko_LOD1.prefab using Guid(81df6cd7f4629fe46b2f941dd9992298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93ade5023e247a7be8c5df88b2fa947b') in 0.071491 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 110
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Prefabs/Gecko.prefab
-  artifactKey: Guid(cefda5744f2acb54d8f08973a10bee1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Prefabs/Gecko.prefab using Guid(cefda5744f2acb54d8f08973a10bee1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50f09c528298f27cd44b83443abf4caf') in 0.075294 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 123
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/_Scripts/DemoController.prefab
-  artifactKey: Guid(3ffd5f966ace6e74dbc3467092bca3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/_Scripts/DemoController.prefab using Guid(3ffd5f966ace6e74dbc3467092bca3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd79d301c779a0a594ccb80525ac427da') in 0.022690 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 231
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Squid_LOD2.prefab
-  artifactKey: Guid(ef3a44aeaa302104a8659bb3e1043280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Squid_LOD2.prefab using Guid(ef3a44aeaa302104a8659bb3e1043280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef04e4b093c0a2ea9425e81a6a676cb') in 0.069140 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 128
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Prefabs/Sparrow.prefab
-  artifactKey: Guid(ad4137f595ec8e2449cacca9df7d3735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Prefabs/Sparrow.prefab using Guid(ad4137f595ec8e2449cacca9df7d3735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b94f3b06065099d63b82192444604bf1') in 0.075445 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 128
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Taipan_LOD0.prefab
-  artifactKey: Guid(253dcfa9771a5c1419efd0dbba280340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Taipan_LOD0.prefab using Guid(253dcfa9771a5c1419efd0dbba280340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cfb53c9177cfd79795989cd1b85f646') in 0.065511 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 110
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Pudu_LOD1.prefab
-  artifactKey: Guid(6a4cfb0d473072b4b8c264014839d6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Pudu_LOD1.prefab using Guid(6a4cfb0d473072b4b8c264014839d6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a8903d5a9b06bd2c9dd3afe6012adbc') in 0.069830 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 112
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Understone/Free Aircraft Pack/Prefabs/Cloud-B.prefab
-  artifactKey: Guid(943371a1cf38ce14fbe0206f3619d091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Free Aircraft Pack/Prefabs/Cloud-B.prefab using Guid(943371a1cf38ce14fbe0206f3619d091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7407a9435103f83b012a6aabce30cbfb') in 0.013372 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 1.617644 seconds.
-  path: Assets/Understone/Free Aircraft Pack/Models/aircraft-A-A.fbx
-  artifactKey: Guid(c98e3e55370b6eb4baa9896fa03e8926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Free Aircraft Pack/Models/aircraft-A-A.fbx using Guid(c98e3e55370b6eb4baa9896fa03e8926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64e2632f3f7378072790c45d87cb0d2f') in 0.064790 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 39
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Class2th(Script)/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Sit.fbx
-  artifactKey: Guid(5505d12703e333b499d0c8ed300b5c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class2th(Script)/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Sit.fbx using Guid(5505d12703e333b499d0c8ed300b5c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29486e7a63c672768314c7938083e6ca') in 0.006485 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 134
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Models/Gecko_LOD0.fbx
-  artifactKey: Guid(a387e69fc974de148a9f773909c6c2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Models/Gecko_LOD0.fbx using Guid(a387e69fc974de148a9f773909c6c2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d21be6da66e39d1ff564ef13013873d') in 0.035214 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 30
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Class4th(Component)/amusedART/StoneMonster/Animations/StoneMonster_Death.FBX
-  artifactKey: Guid(3e63abeab47efea44a9868d7d769abcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class4th(Component)/amusedART/StoneMonster/Animations/StoneMonster_Death.FBX using Guid(3e63abeab47efea44a9868d7d769abcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd4fd4908f49089c4f192643732fe3ce') in 0.031482 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 26
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Animations/Sparrow_Animations.fbx
-  artifactKey: Guid(34f30712d30697648b80843f9e09934c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Animations/Sparrow_Animations.fbx using Guid(34f30712d30697648b80843f9e09934c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c7383a9c889a40312f9752bcc1d0c1b') in 0.038095 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 50
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Models/Sparrow_LOD2.fbx
-  artifactKey: Guid(5d65f55b81ed9e94d9c9a41ecae53f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Models/Sparrow_LOD2.fbx using Guid(5d65f55b81ed9e94d9c9a41ecae53f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75bf1d2d950c930d55c06b3700ebc881') in 0.031945 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 32
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Models/Colobus_LOD3.fbx
-  artifactKey: Guid(00c41b3ac9b4bac45acf9cbda3ad3d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Models/Colobus_LOD3.fbx using Guid(00c41b3ac9b4bac45acf9cbda3ad3d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7cd87a373ec4be183baaa0c949c2e52') in 0.036637 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Class4th(Component)/amusedART/StoneMonster/Animations/StoneMonster_Attack.FBX
-  artifactKey: Guid(3cab52bd39b9a5f4fb028f9ae0ecbc91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class4th(Component)/amusedART/StoneMonster/Animations/StoneMonster_Attack.FBX using Guid(3cab52bd39b9a5f4fb028f9ae0ecbc91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75dfd157ab0e36b56309335d1570056c') in 0.032074 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 26
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Models/Sparrow_LOD3.fbx
-  artifactKey: Guid(ccffdb6a86a472147a9d638ebe9fcd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Models/Sparrow_LOD3.fbx using Guid(ccffdb6a86a472147a9d638ebe9fcd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e8e332b9f6fce0c75da64946bdc9455') in 0.027157 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 32
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Models/Colobus_LOD1.fbx
-  artifactKey: Guid(1f47972a945a0a34e883f2f09d5bf9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Models/Colobus_LOD1.fbx using Guid(1f47972a945a0a34e883f2f09d5bf9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '898ba59252831c4981da8d56fcd69572') in 0.020750 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Animations/Pudu_Animations.fbx
-  artifactKey: Guid(b33fe6572f5e9b54e85212ea4aaf5a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Animations/Pudu_Animations.fbx using Guid(b33fe6572f5e9b54e85212ea4aaf5a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '044a806f5f74597527f2cbfd5516a478') in 0.038206 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 50
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Class2th(Script)/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Attack5.fbx
-  artifactKey: Guid(168542ff75cc8964fb4e265f66c946cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class2th(Script)/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Attack5.fbx using Guid(168542ff75cc8964fb4e265f66c946cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92dfbe1856652f420c6ac5b18fe4ea16') in 0.006794 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 134
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Models/Muskrat_LOD0.fbx
-  artifactKey: Guid(4e8b2226a60b94f4a9c43795c0cea457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Models/Muskrat_LOD0.fbx using Guid(4e8b2226a60b94f4a9c43795c0cea457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c79e30ea4fed93d3f514dab338b2f953') in 0.026907 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Class2th(Script)/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_RunForward.fbx
-  artifactKey: Guid(8a572efe21c51fe4aae52075a5bfe620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class2th(Script)/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_RunForward.fbx using Guid(8a572efe21c51fe4aae52075a5bfe620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '359ef9e54ef98781cf8e0252ad68593f') in 0.005741 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 134
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Understone/Free Aircraft Pack/Models/Cloud-B.fbx
-  artifactKey: Guid(55e5e5bb19e9a76468cc67bbb65546c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Free Aircraft Pack/Models/Cloud-B.fbx using Guid(55e5e5bb19e9a76468cc67bbb65546c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '615b3a404858b27531c6d64bef2cb5ad') in 0.015122 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Class2th(Script)/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_GetHitFromFront.fbx
-  artifactKey: Guid(e009b06e60bb7a34ab1c435503be5c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class2th(Script)/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_GetHitFromFront.fbx using Guid(e009b06e60bb7a34ab1c435503be5c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14f488957d2a521e51c1ae8057806ff3') in 0.005345 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 134
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Models/Sparrow_LOD1.fbx
-  artifactKey: Guid(9679f1fea2a0be24aac869c621837d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Models/Sparrow_LOD1.fbx using Guid(9679f1fea2a0be24aac869c621837d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10762aa8640f6be483182982649ac6a6') in 0.027253 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 32
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Class4th(Component)/amusedART/StoneMonster/StoneMonster.FBX
-  artifactKey: Guid(1db38da97b6ad094dbca967f13dd370f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class4th(Component)/amusedART/StoneMonster/StoneMonster.FBX using Guid(1db38da97b6ad094dbca967f13dd370f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52b9167ad8d832ea7d03ac30a854caef') in 0.025310 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 26
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Models/Muskrat_LOD3.fbx
-  artifactKey: Guid(ecd5f26877b05f24b8929db54ddf9e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Models/Muskrat_LOD3.fbx using Guid(ecd5f26877b05f24b8929db54ddf9e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51173f694c7497fb56b4ac73e3fc057a') in 0.023914 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Class2th(Script)/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Death.fbx
-  artifactKey: Guid(d4e01fbfd601a224e83e1bafb2b0a0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class2th(Script)/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Death.fbx using Guid(d4e01fbfd601a224e83e1bafb2b0a0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dabc9189ae67a37ee3dc1986d60865a') in 0.008388 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 134
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Animations/Colobus_Animations.fbx
-  artifactKey: Guid(b7b20bc931c427e46a8b1918db64e552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Animations/Colobus_Animations.fbx using Guid(b7b20bc931c427e46a8b1918db64e552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5a1afb9ef37d522def54b6f1dbafd1e') in 0.024517 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 52
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Class2th(Script)/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Attack3.fbx
-  artifactKey: Guid(786582bf61e76c242b37956059d4c209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class2th(Script)/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Attack3.fbx using Guid(786582bf61e76c242b37956059d4c209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25c8fcb011ab132edffca5ec6df955c9') in 0.005671 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 134
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Models/Herring_LOD0.fbx
-  artifactKey: Guid(53116f02eef714540be72cf8a7f05df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Models/Herring_LOD0.fbx using Guid(53116f02eef714540be72cf8a7f05df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e01d19aa55e9da585704abf068fc2a79') in 0.025287 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 32
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Animations/Herring_Animations.fbx
-  artifactKey: Guid(0b04b4ee27b36df4c94e4df3ea384a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Animations/Herring_Animations.fbx using Guid(0b04b4ee27b36df4c94e4df3ea384a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11aa2b801fe8da7bc9aa57a8f9f2c15f') in 0.035758 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 49
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Class2th(Script)/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_WalkBackward.fbx
-  artifactKey: Guid(632368da2a0c8904ab1e6031fb4591df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class2th(Script)/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_WalkBackward.fbx using Guid(632368da2a0c8904ab1e6031fb4591df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa8884a64c204cc9125ee7e9b4cc197e') in 0.009341 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 134
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Models/Gecko_LOD3.fbx
-  artifactKey: Guid(f6ba3f6a030fdfb41bb3b15470242c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Models/Gecko_LOD3.fbx using Guid(f6ba3f6a030fdfb41bb3b15470242c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57c30b45e37e3659677ce0eb82d197d2') in 0.030826 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 30
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Models/Gecko_LOD1.fbx
-  artifactKey: Guid(c15ff5a6d122ea54591a8237be7bce8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class1th(GizmoSystem)/Quirky Series Ultimate/FREE/Models/Gecko_LOD1.fbx using Guid(c15ff5a6d122ea54591a8237be7bce8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '847722a2902b643a83da0df8c5072f45') in 0.037313 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 30
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Understone/Free Aircraft Pack/Models/Cloud-A.fbx
-  artifactKey: Guid(fd368be74e0578d4a839c32767696a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Free Aircraft Pack/Models/Cloud-A.fbx using Guid(fd368be74e0578d4a839c32767696a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef11ee411cbca685be45d67d9ae833b2') in 0.030811 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ½º·¹µå Á¾·á ¶Ç´Â ÀÀ¿ë ÇÁ·Î±×·¥ ¿äÃ» ¶§¹®¿¡ I/O ÀÛ¾÷ÀÌ Ãë¼ÒµÇ¾ú½À´Ï´Ù.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Number of asset objects unloaded after import = 0
