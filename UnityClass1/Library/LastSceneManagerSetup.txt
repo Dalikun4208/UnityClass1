@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Class7th(UI)/Class7th.unity
+- path: Assets/Class8th(Prefab System)/Class 8th Scenes.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
