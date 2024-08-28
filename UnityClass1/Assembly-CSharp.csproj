@@ -60,17 +60,23 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Class2th(Script)\Scripts\Bear.cs" />
-    <Compile Include="Assets\Class3th(LifeCycle)\Script\Life.cs" />
+    <Compile Include="Assets\Class4th (GetComponent)\Scripts\Monster.cs" />
     <Compile Include="Assets\Class5th (Translate)\Scripts\AirCraft.cs" />
-    <Compile Include="Assets\Class1th(GizmoSystem)\Quirky Series Ultimate\_Scripts\RotateOnScroll.cs" />
-    <Compile Include="Assets\Class1th(GizmoSystem)\Quirky Series Ultimate\_Scripts\QuirkySeriesDemo.cs" />
+    <Compile Include="Assets\Class10th (Collsion)\Scripts\Knight.cs" />
+    <Compile Include="Assets\Class2th (Script)\Scripts\Bear.cs" />
+    <Compile Include="Assets\Class11th (Sound)\Scripts\Dragon.cs" />
+    <Compile Include="Assets\Class3th (Life Cycle)\Scripts\Life.cs" />
+    <Compile Include="Assets\Class4th (GetComponent)\Scripts\Move.cs" />
+    <Compile Include="Assets\Class11th (Sound)\Scripts\SoundManager.cs" />
     <Compile Include="Assets\Class7th (User Interface)\Scripts\ButtonManager.cs" />
-    <Compile Include="Assets\Class10th(Collision)\Script\Knight.cs" />
+    <Compile Include="Assets\Class9th (Instantiate)\Scripts\Select.cs" />
+    <Compile Include="Assets\Class9th (Instantiate)\Scripts\CreateManager.cs" />
+    <Compile Include="Assets\Class12th(RayCast)\Scripts\Mouse.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Class1th(GizmoSystem)\Quirky Series Ultimate\_Shader\SoftSurface.shader" />
-    <None Include="Assets\Class1th(GizmoSystem)\Quirky Series Ultimate\_Shader\ToonRamp.shader" />
+    <None Include="Assets\Class1th (Gizmo System)\Quirky Series Ultimate\_Shader\SoftSurface.shader" />
+    <None Include="Assets\Class11th (Sound)\BattleDragon\readme.txt" />
+    <None Include="Assets\Class1th (Gizmo System)\Quirky Series Ultimate\_Shader\ToonRamp.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
