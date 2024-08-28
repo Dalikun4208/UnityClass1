@@ -21,7 +21,9 @@ public class Mouse : MonoBehaviour
             ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
             if (Physics.Raycast(ray, out RaycastHit, Mathf.Infinity)) ;
+            {
 
+            }
         }
     }
     private void OnDrawGizmos()
