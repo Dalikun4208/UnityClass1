@@ -7,6 +7,7 @@ public class Mouse : MonoBehaviour
     [SerializeField] Ray ray;
     [SerializeField] Texture2D texture2D;
     [SerializeField] RaycastHit RaycastHit;
+    [SerializeField] LayerMask layerMask;
     // Start is called beforethe first frame update
     void Start()
     {
@@ -20,8 +21,14 @@ public class Mouse : MonoBehaviour
         {
             ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
-            if (Physics.Raycast(ray, out RaycastHit, Mathf.Infinity)) ;
+            if (Physics.Raycast(ray, out RaycastHit, Mathf.Infinity, layerMask))
             {
+                IInterractable interractable = RaycastHit.collider.GetComponent<IInterractable>();
+
+                if(interractable != null)
+                {
+                    interractable.Interact();
+                }
 
             }
         }
